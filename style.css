@@ -1,0 +1,79 @@
+@keyframes duck {
+  from {
+  transform: translateY(200px);
+  opacity: 0;
+
+}
+
+to {
+  transform: translateY(0px);
+  opacity: 1;
+}
+}
+
+
+
+.cls-1 {
+  animation-name: duck;
+  animation-duration: 1000ms;
+  animation-fill-mode: both;
+}
+
+#w .cls-1 {
+  animation-delay: 300ms;
+
+}
+
+#e .cls-1 {
+  animation-delay: 500ms;
+
+}
+
+#d .cls-1 {
+  animation-delay: 700ms;
+
+}
+
+#n .cls-1 {
+  animation-delay: 900ms;
+
+}
+
+#e-2 .cls-1 {
+  animation-delay: 1100ms;
+
+}
+
+#s .cls-1 {
+  animation-delay: 1300ms;
+
+}
+
+#d-2 .cls-1 {
+  animation-delay: 1500ms;
+
+}
+
+#a .cls-1 {
+  animation-delay: 1700ms;
+
+}
+
+#y .cls-1 {
+  animation-delay: 1900ms;
+
+}
+
+
+/* @keyframes scale {
+  from {
+    transform:  scale(1.0);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+#w .cls-1:hover {
+  animation-name: scale;
+} */
