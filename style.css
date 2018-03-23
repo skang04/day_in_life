@@ -1,3 +1,81 @@
+.svg {
+  position: relative;
+  z-index: 990;
+}
+
+.coffee {
+  position: absolute;
+  top: 10vw;
+  left:5vw;
+}
+
+.work {
+  position: absolute;
+  top: 2vw;
+  left:37vw;
+}
+
+.cafe {
+  position: absolute;
+  top: 36vw;
+  left:2vw;
+}
+
+.food {
+  position: absolute;
+  top: 31vw;
+  left:38vw;
+}
+
+
+.selfie {
+  position: absolute;
+  top: 6vw;
+  left:72vw;
+}
+
+.funwork {
+  position: absolute;
+  top: 26vw;
+  left:82vw;
+}
+
+.night {
+  position: absolute;
+  top: 44vw;
+  left:65vw;
+}
+
+.meyerhoff {
+  position: absolute;
+  top: 46vw;
+  left:20vw;
+}
+
+.banana {
+  position: absolute;
+  top: 41vw;
+  left:37vw;
+}
+
+.street {
+  position: absolute;
+  top: 31vw;
+  left:61vw;
+}
+
+.leake {
+  position: absolute;
+  top: 16vw;
+  left:20vw;
+}
+
+.shower {
+  position: absolute;
+  top: 48vw;
+  left:9vw;
+}
+
 @keyframes duck {
   from {
   transform: translateY(200px);
@@ -76,8 +154,27 @@ to {
 }
 }
 
-a svg:hover #w .cls-1 {
+img.show {
+  opacity: 1;
+
+
+}
+
+img {
+  opacity: 0;
+  position: relative;
+  transition: 500ms;
+}
+
+img:hover {
+  z-index: 990;
+}
+
+svg.inactive {
+  pointer-events: none;
+}
+/* a svg:hover #w .cls-1 {
 animation-name: scale;
 animation-duration: 1000ms;
 animation-fill-mode: both;
-}
+} */
