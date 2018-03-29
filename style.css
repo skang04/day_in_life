@@ -46,7 +46,7 @@ html, body {
   background-size: 100%, 100%, 100%;
   background-position:center;
   background-repeat: no-repeat;
-  animation: bgmove 3s;
+  animation: bgmove 5s;
 }
 
 
@@ -150,47 +150,47 @@ to {
 }
 
 #w .cls-1 {
-  animation-delay: 300ms;
+  animation-delay: 600ms;
 
 }
 
 #e .cls-1 {
-  animation-delay: 500ms;
+  animation-delay: 800ms;
 
 }
 
 #d .cls-1 {
-  animation-delay: 700ms;
+  animation-delay: 1000ms;
 
 }
 
 #n .cls-1 {
-  animation-delay: 900ms;
+  animation-delay: 1200ms;
 
 }
 
 #e-2 .cls-1 {
-  animation-delay: 1100ms;
+  animation-delay: 1400ms;
 
 }
 
 #s .cls-1 {
-  animation-delay: 1300ms;
+  animation-delay: 1600ms;
 
 }
 
 #d-2 .cls-1 {
-  animation-delay: 1500ms;
+  animation-delay: 1800ms;
 
 }
 
 #a .cls-1 {
-  animation-delay: 1700ms;
+  animation-delay: 2000ms;
 
 }
 
 #y .cls-1 {
-  animation-delay: 1900ms;
+  animation-delay: 2200ms;
 
 }
 
