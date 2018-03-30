@@ -40,7 +40,7 @@ html, body {
   width: 100%;
   margin:0;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: 'Noto Serif', serif;
   text-align: left;
   background-color:#d7d7d7;
@@ -93,7 +93,7 @@ html, body {
 .funwork {
   position: absolute;
   top: 26vw;
-  left:82vw;
+  left:71vw;
 }
 
 .night {
@@ -128,7 +128,7 @@ html, body {
 
 .shower {
   position: absolute;
-  top: 48vw;
+  top: 36vw;
   left:9vw;
 }
 
@@ -229,8 +229,3 @@ img:hover {
 svg.inactive {
   pointer-events: none;
 }
-/* a svg:hover #w .cls-1 {
-animation-name: scale;
-animation-duration: 1000ms;
-animation-fill-mode: both;
-} */
