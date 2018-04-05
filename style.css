@@ -40,9 +40,9 @@ html, body {
   width: 100%;
   margin:0;
   height: 100%;
-  /* overflow: hidden; */
   font-family: 'Noto Serif', serif;
-  text-align: left;
+  font-size: 25px;
+  color: #dfff82;
   background-color:#d7d7d7;
   background-image:url("9.png"),url("8.png"),url("7.png"),url("6.png"),url("5.png"),url("5.png"),url("4.png"),url("3.png"),url("2.png"),url("1.png");
   background-size: 100%, 100%, 100%;
@@ -98,14 +98,14 @@ html, body {
 
 .night {
   position: absolute;
-  top: 44vw;
-  left:65vw;
+  top: 2vw;
+  left:16vw;
 }
 
 .meyerhoff {
   position: absolute;
-  top: 46vw;
-  left:20vw;
+  top: 16vw;
+  left:57vw;
 }
 
 .banana {
@@ -228,4 +228,77 @@ img:hover {
 
 svg.inactive {
   pointer-events: none;
+}
+
+.workstudy {
+position: absolute;
+top: -134vw;
+left:37vw;
+}
+
+
+.lunch {
+  position: absolute;
+  top: -107vw;
+  left:38vw;
+}
+
+.trash {
+  position: absolute;
+  top: -88vw;
+  left:45vw;
+}
+
+.full{
+  position: absolute;
+  top: 31vw;
+  left:48vw;
+}
+
+.jamie{
+  position: absolute;
+  top: 8vw;
+  left:52vw;
+}
+
+.meyerhofff {
+  position: absolute;
+  top: 18vw;
+  left:38vw;
+}
+
+.bananaa{
+  position: absolute;
+  top: -59vw  ;
+  left:-84vw;
+}
+
+.nightt{
+  position: absolute;
+  top: 43vw;
+  left:38vw;
+}
+
+.way{
+  position: absolute;
+  top: 21vw;
+  left:68vw;
+}
+
+.art{
+  position: absolute;
+  top: 21vw;
+  left:78vw;
+}
+
+.leakee{
+  position: absolute;
+  top: 41vw;
+  left:60vw;
+}
+
+.showerr{
+    position: absolute;
+  top: -217vw;
+  left:-93vw;
 }
